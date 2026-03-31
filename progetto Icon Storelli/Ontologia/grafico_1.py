@@ -34,4 +34,3 @@ for container in ax.containers:
     ax.bar_label(container, fmt='%2.2f', label_type='edge', color='black')
 
 ax.legend(["Non Autistico (0)", "Autistico (1)"])
-plt.show()
